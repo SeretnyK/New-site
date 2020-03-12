@@ -1,0 +1,74 @@
+.about {
+    max-width:800px;
+    width: 100%;
+    margin: 32px auto;
+    border-top: 4px dashed #51d1e2;
+    border-bottom: 4px dashed #51d1e2;
+}
+
+.about__headings {
+    text-align: center;
+}
+
+.about__paragraphs {
+    font-size: 18px;
+    margin: 16px 16px;
+}
+
+.about__photo {
+    margin-right: 10px;
+    margin-top: 4px;
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    float: left;
+    border:2px solid #51d1e2;
+}
+
+.footer {
+    width: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.homepage__body {
+    background: rgb(252,150,66);
+    background: linear-gradient(0deg, rgba(252,150,66,0.9472163865546218) 0%, rgba(135,163,0,1) 100%);
+    margin:0px;
+}
+
+.homepage__main 
+
+.news {
+    max-width: 800px;
+    widows: 100%;
+    margin: 32px auto;
+    border-top: 4px dashed #51d1e2;
+    border-bottom: 4px dashed #51d1e2;
+}
+
+.news__head {
+    text-align: center;
+}
+
+.news__headings {
+    font-size: 24px;
+}
+
+.news__paragraphs {
+    font-size: 18px;
+    margin: 16px;
+}
+
+.site__title {
+    width: 100%;
+    max-width: 900px;
+    margin: 32px auto;
+    text-align: center;
+}
