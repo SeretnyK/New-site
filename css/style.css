@@ -1,7 +1,7 @@
 .about {
     max-width:800px;
     width: 100%;   
-    margin-top: 0px;
+    margin-top: 32px;
     margin-bottom: 32px;
     margin-left: auto;
     margin-right: auto;
@@ -32,8 +32,8 @@
 
 .footer {
     width: 100%;
-    max-width: 100%;
-    margin: 0px auto;
+    max-width: 1000px;
+    margin: 32px auto;
     text-align: center;
     background-color: black;
     color: blanchedalmond;
@@ -48,6 +48,17 @@
     margin:0px;
 }
 
+.homepage__main {
+    padding-top: 48px;
+}
+
+.navigation__header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
 .navigation__list {
     display: flex;
     text-align: center;
@@ -57,19 +68,28 @@
     justify-content: space-around;  
     background: black;
     margin: 0px;
+    
+    
 }
 
 .navigation__item {
     list-style: none;
-    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     margin: 16px 0px;
 }
 
+.navigation__link {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: rgb(126, 28, 218);
+}
+
 .news {
     max-width: 800px;
-    widows: 100%;
     margin: 32px auto;
     border-top: 4px dashed #51d1e2;
     border-bottom: 4px dashed #51d1e2;
@@ -85,6 +105,15 @@
     margin-left: 6px;
 }
 
+.news__link {
+    text-decoration: none;
+    color: rgb(136, 113, 49);
+}
+
+.news__link:hover {
+    color: rgb(177, 94, 216);
+}
+
 .news__paragraphs {
     font-size: 18px;
     margin: 16px;
@@ -93,12 +122,25 @@
 
 .site__header {
     width: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     background: aliceblue;
-    padding: 24px;
+    padding: 24px 0px;
     font-size: 46px;
+    margin-top: 0px;
+}
+
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   
+}
+
+.top__link {
+    text-decoration: none;
+    color: rgb(136, 113, 49);
+}
+
+.top__link:hover{
+    color: rgb(126, 28, 218);
 }
