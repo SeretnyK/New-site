@@ -70,3 +70,13 @@ console.log(calculate(4))
 const calculatefat = (x) => (x+3)*7;
 
 console.log(calculatefat(3))
+
+//Nawigacja 
+
+const menuButton = document.querySelector('.menu__button--js');
+
+menuButton.addEventListener('click', (e) => {
+    const navigationList = document.querySelector('.navigation__list--js');
+    navigationList.classList.toggle('navigation__list--visible')
+
+})

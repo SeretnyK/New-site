@@ -13,16 +13,19 @@
 <body class="homepage__body">
   <header class="navigation__header">
     <nav class="navigation">
-     <ul class="navigation__list">
-       <li class="navigation__item"><a href="homepage.html" class="navigation__link">Homepage</a></li>
-       <li class="navigation__item"><a href="site-2.html" class="navigation__link"> Site-2</a></li>
-       <li class="navigation__item"><a href="site-3.html" class="navigation__link">Site-3</a></li>
-     </ul>
+      <ul class="navigation__list navigation__list--js navigation__list--visible">
+        <li class="navigation__item"><a href="homepage.html" class="navigation__link">Homepage</a></li>
+        <li class="navigation__item"><a href="site-2.html" class="navigation__link">Site-2</a></li>
+        <li class="navigation__item"><a href="site-3.html" class="navigation__link">Site-3</a></li>
+        <li class="navigation__item"><a href="site-3.html" class="navigation__link">Site-4</a></li>
+        <li class="navigation__item"><a href="site-3.html" class="navigation__link">Site-5</a></li>
+      </ul>
     </nav>
+    <button class="menu__button menu__button--js">MENU</button>
   </header>
   <main class="homepage__main" id="top">
     <header class="homepage__header">
-      <h1 class="site__header" >LOREM IPSUM-Strona główna</h1>
+      <h1 class="site__header">LOREM IPSUM-Strona główna</h1>
     </header>
     <section class="about">
       <h2 class="about__headings">
@@ -32,46 +35,83 @@
         <img src="../JPG/pansestocka.jpg" class="about__photo">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias fugiat, temporibus reiciendis quasi quis
         praesentium aspernatur aliquam iure mollitia harum eum a necessitatibus incidunt excepturi consequatur
-        repellendus similique repellat! Saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam
+        repellendus similique repellat! Saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        quam
         rem, sapiente quae, qui vero explicabo natus eveniet tenetur ipsa quaerat alias quia consequatur? Fuga iusto
         eveniet laboriosam libero quam.<br>
-        
+
       </p>
     </section>
     <section class="news">
       <header class="news__header">
-        <h2 class="news__head">
+        <h1 class="news__head">
           Lorem
-        </h2>
+        </h1>
       </header>
-      <h3 class="news__headings">
-        Lorem ipsum lorem?
-      </h3>
-      <p class="news__paragraphs">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum error exercitationem accusamus cupiditate
-        deserunt quidem ipsum hic nemo doloribus dignissimos voluptatibus porro odio molestiae aspernatur quasi
-        delectus, aperiam nam molestias...<a href="odnośnik" class="news__link">read more --></a>
-      </p>
-      <h3 class="news__headings">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-      </h3>
-      <p class="news__paragraphs">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quis sequi laboriosam voluptate repellat
-        doloribus rerum tempore qui distinctio, veritatis enim cumque, cupiditate officia veniam? Fuga a tenetur
-        pariatur iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quaerat ducimus tempore quos
-        dolor expedita enim quas earum modi consequuntur cumque explicabo laudantium numquam doloremque qui omnis, harum
-        ex consectetur...<a href="odnośnik" class="news__link">read more --></a>
-      </p>
-      <h3 class="news__headings">
-        Tempore iste excepturi qui quo doloremque.
-      </h3>
-      <p class="news__paragraphs">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae praesentium ducimus cumque. Omnis labore maxime
-        facilis deserunt animi itaque quo saepe tempore suscipit repellendus, placeat, mollitia praesentium obcaecati,
-        accusamus et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum nisi nobis veniam praesentium
-         magnam, distinctio minus sed nulla? Odio corporis asperiores aperiam ex porro. Eaque,
-        exercitationem...<a href="odnośnik" class="news__link">read more --></a>
-      </p>
+      <div class="grid__news">
+      <section class="news__article--1">
+        <h3 class="news__headings">
+          Lorem ipsum lorem?
+        </h3>
+        <p class="news__paragraphs">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.Ratione, quaerat ducimus tempore quos
+          dolor cumque explicabo laudantium ui omnis,
+          harum Nostrum error exerc
+          deserunt quidem ipsum hic nemo doloribus dignissimos voluptatibus porro odio molestiae aspernatur quasi
+          delectus, aperiam nam molestias...<a href="odnośnik" class="news__link">read more --></a>
+        </p>
+      </section>
+      <section class="news__article--2">
+        <h3 class="news__headings">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </h3>
+        <p class="news__paragraphs">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quis sequi laboriosam voluptate repellat
+          doloribus rerum tempore qui distinctio, veritatis enim cumque, cupiditate officia veniam? Fuga a tenetur
+          pariatur iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quaerat ducimus tempore quos
+          dolor expedita enim quas earum modi consequuntur cumque explicabo laudantium numquam doloremque qui omnis,
+          harum
+          ex consectetur...<a href="odnośnik" class="news__link">read more --></a>
+        </p>
+      </section>
+      <section class="news__article--3">
+        <h3 class="news__headings">
+          Tempore iste excepturi qui quo doloremque.
+        </h3>
+        <p class="news__paragraphs">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae praesentium ducimus cumque. Omnis labore
+          maxime
+          facilis deserunt animi itaque quo saepe tempore suscipit repellendus, placeat, mollitia praesentium obcaecati,
+          accusamus et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum nisi nobis veniam
+          praesentium
+          magnam, distinctio minus sed nulla? Odio corporis asperiores aperiam ex porro. Eaque,
+          exercitationem...<a href="odnośnik" class="news__link">read more --></a>
+        </p>
+      </section>
+      <section class="news__article--4">
+        <h3 class="news__headings">
+          Tempore iste quo doloremque.
+        </h3>
+        <p class="news__paragraphs">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae praesentium ducimus cumque. Omnis labore
+          maxim
+          magnam, distinctio minus sed nulla? Odio corporis asperiores aperiam ex porro. Eaque,
+          exercitationem...<a href="odnośnik" class="news__link">read more --></a>
+        </p>
+      </section>
+      <section class="news__article--5">
+        <h3 class="news__headings">
+          Distinctio minus sed nulla?
+        </h3>
+        <p class="news__paragraphs">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae praesentium ducimus cumque. Omnis labore
+          maximaccusamus et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum nisi nobis veniam
+          praesentium
+          magnam, distinctio minus sed nulla? Odio corporis asperiores aperiam ex porro. Eaque,
+          exercitationem...<a href="odnośnik" class="news__link">read more --></a>
+        </p>
+      </section>
+      </div>
     </section>
     <div class="top">
       <a href=#top class="top__link">Do góry</a>
@@ -81,6 +121,8 @@
     Site made by Lorem ipsum dolor.
   </footer>
   <script src="../js/main.js"></script>
+
+
 </body>
 
 
